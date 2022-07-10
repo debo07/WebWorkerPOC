@@ -22,5 +22,9 @@ npm run build
 
 ### Screenshot of the error
 ![Error ScreenShot](screenshots/ErrorScreenshot1.png)
+### Dev mode Bundle
+![DevBundle](screenshots/DevModeBundle.png)
+### Prod mode Bundle
+![ProdBundle](screenshots/ProdModeBundle.png)
 
 This issue is being tracked [here](https://github.com/webpack/webpack/issues/15165)
