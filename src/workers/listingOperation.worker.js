@@ -1,9 +1,10 @@
 import { TABLE_HEIGHT } from "../constants";
+import get from "lodash/get";
 
 const processListData = data => {
-    // some operation on data
     console.log(data);
     console.log(TABLE_HEIGHT);
+    console.log(get(data, "list.0"));
     return data.list.map(n => n * 2);
 };
 
