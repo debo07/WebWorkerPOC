@@ -19,3 +19,8 @@ npm run build
 
 ## Issues
 - After `npm start` or `npm run build`, notice the worker bundle file in `dist/js/workers` folder. `import` statements are present as it is in the bundle, because of which browser is not able to run it.
+
+### Screenshot of the error
+![Error ScreenShot](screenshots/ErrorScreenshot1.png)
+
+This issue is being tracked [here](https://github.com/webpack/webpack/issues/15165)
