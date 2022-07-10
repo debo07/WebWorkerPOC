@@ -1,6 +1,9 @@
+import { TABLE_HEIGHT } from "../constants";
+
 const processListData = data => {
     // some operation on data
     console.log(data);
+    console.log(TABLE_HEIGHT);
     return data.list.map(n => n * 2);
 };
 
